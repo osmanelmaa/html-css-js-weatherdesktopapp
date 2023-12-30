@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300;400;700&family=Poppins:ital,wght@0,400;1,500&family=Ubuntu:wght@300&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #9FF8FF;
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+}
+.weather-container{
+    width: 450px;
+    height: 550px;
+    background: url(containerbg.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+}
+.weather-container h1{
+    padding: 25px;
+    margin-top: 80px;
+    font-weight: 600;
+
+}
+#cityInput{
+    width: 90%;
+    height: 50px;
+    background: transparent;
+    border: 2px #9FF8FF solid;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 35px;
+}
+button{
+    margin-top: 50px;
+    height: 50px;
+    border: 2px solid #9FF8FF;
+    background: transparent;
+    border-radius: 15px;
+    color: white;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+button:hover{
+    background: #9FF8FF;
+    color: black;
+    height: 35px;
+    cursor: pointer;
+}
+        
+
+
+       
